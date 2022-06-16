@@ -12,33 +12,23 @@
         font-family: 'Tiro Gurmukhi', serif;
     }
     .img_taper{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        @include aco_taper;
         img{
             margin: 1rem;
             border-radius: 30px;
             &:hover{
                 transform: scale(1.1,1.1);
-                border-radius: 140px;
-                border: 3px solid black;
-                transition: 0.5s;
+                @include taper_hover;
             }
         }
     }
     .iframe_taper{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        @include aco_taper;
         iframe{
             margin: 1rem;
             border-radius: 30px;
             &:hover{
-                transform: scale(1.1,1.1);
-                border: 3px solid black;
-                transition: 0.5s;
+                @include taper_hover;
             }
         }
     }
