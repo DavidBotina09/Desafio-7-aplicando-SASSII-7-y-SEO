@@ -55,19 +55,16 @@
   margin-left: 20%;
   margin-right: 20%; }
 
-.pagina_index main .informacion {
+.pagina_index main .informacion, .pagina_index main .beneficios {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%; }
-  .pagina_index main .informacion h3, .pagina_index main .informacion p {
+  .pagina_index main .informacion h3, .pagina_index main .beneficios h3, .pagina_index main .informacion p, .pagina_index main .beneficios p {
     font-family: 'Tiro Gurmukhi', serif;
     text-align: center; }
 
 .pagina_index main .beneficios {
   overflow: hidden;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
   text-align: center; }
 
 .pagina_index footer {
@@ -199,7 +196,7 @@
       border-radius: 30px; }
       .pagina_cortes .taper_fade .img_taper img:hover {
         transform: scale(1.1, 1.1);
-        border-radius: 140px;
+        transform: scale(1.1, 1.1);
         border: 3px solid black;
         transition: 0.5s; }
   .pagina_cortes .taper_fade .iframe_taper {
