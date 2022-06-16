@@ -1,9 +1,4 @@
-@mixin medidas_ind {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-@mixin aco_taper{
+@mixin acomodar{
     display: flex;
     flex-direction: row;
     align-items: center;

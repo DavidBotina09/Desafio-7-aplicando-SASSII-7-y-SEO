@@ -5,15 +5,17 @@
 }
 main{
     .informacion{
-        @include medidas_ind;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
         h3,p{
             font-family: 'Tiro Gurmukhi', serif;
             text-align: center;
         }
     }
     .beneficios{
+        @extend .informacion;
         overflow: hidden;
-        @include medidas_ind;
         text-align: center;
     }
 }

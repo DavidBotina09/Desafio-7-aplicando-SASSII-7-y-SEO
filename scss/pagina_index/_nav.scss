@@ -9,10 +9,7 @@
         margin-right: 2%;
         margin-bottom: 0px ;
         list-style: none;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content:center;
+        @include acomodar;
         height: auto;
         li{
             border-radius: 0rem 1rem 0rem 1rem;
